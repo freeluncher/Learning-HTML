@@ -1,7 +1,7 @@
-# 🚀 Gandhi Satria Dewa - Online CV
+# 🚀 Gandhi Satria Dewa - Single-Page-CV using only HTML
 
 ## 🌟 Description
-This is an **Online CV** project created using **HTML, CSS and JavaScript**. The main goal of this project is to present my professional profile in the form of a **single-page website** with information about my skills, education and work experience.
+This is an **Online CV** project created using **HTML**. The main goal of this project is to present my professional profile in the form of a **single-page website** with information about my skills, education and work experience.
 ## 🎯 Features
 - ✅ **Semantic HTML structure** to improve accessibility and SEO.
 - ✅ **SEO Meta Tags** to increase visibility in search engines.
