@@ -1,96 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta name="description" content="Welcome to my simple HTML website. Explore my projects, articles, and contact information." />
-		<meta name="keywords" content="HTML, Projects, Articles, Contact, Portfolio" />
-		<meta name="author" content="Gandhi Satria Dewa" />
-		<link rel="stylesheet" href="style.css" />
-		<title>Homepage | My Website</title>
-	</head>
-	<body>
-		<header id="navbar">
-			<h1>Gandhi Satria Dewa</h1>
-			<nav>
-				<ul>
-					<li><a href="homepage.html">Home</a></li>
-					<li><a href="projects.html">Projects</a></li>
-					<li><a href="articles.html">Articles</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
-		</header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Gandhi Satria Dewa's portfolio. Explore projects, experience, and education.">
+    <meta name="keywords" content="Portfolio, Web Developer, Experience, Education, Projects">
+    <meta name="author" content="Gandhi Satria Dewa">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio | Gandhi Satria Dewa</title>
+</head>
+<body>
 
-		<main>
-			<section class="hero">
-				<div class="hero-content">
-					<h2>Frontend Developer</h2>
-					<p>Welcome to my portfolio. Explore my projects and articles.</p>
-				</div>
-			</section>
-			<section id="work-experience">
-				<h2>Work Experience</h2>
-				<article>
-					<h3>Roadmap.sh</h3>
-					<p>Solved all the frontend projects</p>
-					<a href="https://github.com/freeluncher">Visit my Profile</a>
-				</article>
-				<article>
-					<h3>Opensource Work</h3>
-					<p>Contributed to 50 opensource projects. Made my own projects with 200 Github Stars.</p>
-					<a href="https://github.com/freeluncher">Visit my Github Profile</a>
-				</article>
-			</section>
-			<section id="education">
-				<h2>Education</h2>
-				<p>Graduated with 2.96 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
-				<p>Course I took:</p>
-				<ul>
-					<li>Object Oriented Programming</li>
-					<li>Data Structures and Algorithms</li>
-					<li>Web Engineering</li>
-					<li>Artificial Intelligence</li>
-					<li>Human Computer Interaction</li>
-					<li>Computer Graphics</li>
-					<li>Database Management Systems</li>
-					<li>Distributed Database Systems</li>
-					<li>Discreet Mathematics</li>
-				</ul>
-			</section>
-			<section id="review">
-				<h2>Review from my Teachers</h2>
-				<article>
-					<p>John doe was a brilliant student; always stood out with his assignments</p>
-					<p>Jane Doe - Assistant Professor</p>
-				</article>
-				<hr />
-				<article>
-					<p>John doe was a brilliant student; always stood out with his assignments</p>
-					<p>Jane Doe - Assistant Professor</p>
-				</article>
-				<hr />
-				<article>
-					<p>John doe was a brilliant student; always stood out with his assignments</p>
-					<p>Jane Doe - Assistant Professor</p>
-				</article>
-			</section>
-		</main>
-		<aside id="projects">
-			<h2>Projects</h2>
-			<nav>
-				<ul>
-					<li>HTML Only Portfolio</li>
-					<li>Calculator</li>
-					<li>Quiz App</li>
-					<li>Countdown Timer</li>
-					<li>Product Upcoming Page</li>
-				</ul>
-			</nav>
-		</aside>
+    <!-- Header dengan Navbar Transparan -->
+    <header id="navbar">
+        <div class="container">
+            <h1>Gandhi Satria Dewa</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li> /
+                    <li><a href="#">Projects</a></li> /
+                    <li><a href="#">Experience</a></li> /
+                    <li><a href="#">Education</a></li> /
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-		<footer>
-			<p>&copy; 2025 Gandhi Satria Dewa. All rights reserved.</p>
-		</footer>
-	</body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Frontend Developer</h2>
+            <p>Welcome to my portfolio. Explore my projects and experiences.</p>
+        </div>
+    </section>
+
+    <main>
+        <div class="content-container">
+            <!-- Projects Section -->
+            <section id="projects">
+                <h2>Projects</h2>
+                <ul>
+                    <li><a href="#">HTML Only Portfolio</a></li>
+                    <li><a href="#">Calculator</a></li>
+                    <li><a href="#">Quiz App</a></li>
+                    <li><a href="#">Countdown Timer</a></li>
+                    <li><a href="#">Product Upcoming Page</a></li>
+                </ul>
+            </section>
+
+            <!-- Experience Section (Scrollable) -->
+            <section id="work-experience">
+                <h2>Work Experience</h2>
+                <div class="experience-container">
+                    <article>
+                        <h3>Roadmap.sh</h3>
+                        <p>Solved all the frontend projects</p>
+                        <a href="https://github.com/freeluncher">Visit my Profile</a>
+                    </article>
+                    <article>
+                        <h3>Opensource Work</h3>
+                        <p>Contributed to 50 opensource projects. Made my own projects with 200 Github Stars.</p>
+                        <a href="https://github.com/freeluncher">Visit my Github Profile</a>
+                    </article>
+                    <article>
+                        <h3>Freelancing</h3>
+                        <p>Developed websites for multiple clients with 5-star ratings.</p>
+                        <a href="https://github.com/freeluncher">Visit my Github Profile</a>
+                    </article>
+                    <article>
+                        <h3>Graphic Designer</h3>
+                        <p>Developed websites for multiple clients with 5-star ratings.</p>
+                        <a href="https://github.com/freeluncher">Visit my Github Profile</a>
+                    </article>
+                    <article>
+                        <h3>Mechanical Technician</h3>
+                        <p>Developed websites for multiple clients with 5-star ratings.</p>
+                        <a href="https://github.com/freeluncher">Visit my Github Profile</a>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Education Section -->
+            <section id="education">
+                <h2>Education</h2>
+                <p>Graduated with 2.96 out of 4 CGPA. Won Acme Hackathon. Organized 30 sessions.</p>
+                <ul>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures and Algorithms</li>
+                    <li>Web Engineering</li>
+                    <li>Artificial Intelligence</li>
+                    <li>Human Computer Interaction</li>
+                    <li>Computer Graphics</li>
+                    <li>Database Management Systems</li>
+                    <li>Distributed Database Systems</li>
+                    <li>Discrete Mathematics</li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Reviews from My Teachers</h2>
+            <div class="review-grid">
+                <div class="review-card">
+                    <p>"Gandhi is an outstanding student, always delivering exceptional work on assignments."</p>
+                    <p class="reviewer">- Jane Doe, Assistant Professor</p>
+                </div>
+                <div class="review-card">
+                    <p>"A highly motivated learner with excellent problem-solving skills."</p>
+                    <p class="reviewer">- John Smith, Lecturer</p>
+                </div>
+                <div class="review-card">
+                    <p>"Demonstrated strong leadership in projects and hackathons."</p>
+                    <p class="reviewer">- Dr. Alice Brown, Senior Professor</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Gandhi Satria Dewa. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>
