@@ -28,4 +28,5 @@ Here are some meta tags used for SEO and Open Graph:
 🚀 Made with ❤️ by **Gandhi Satria Dewa**
 
 
-https://roadmap.sh/projects/single-page-cv
+single-page-cv = https://roadmap.sh/projects/single-page-cv
+basic-html-homepage = https://roadmap.sh/projects/basic-html-website
