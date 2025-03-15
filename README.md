@@ -28,5 +28,5 @@ Here are some meta tags used for SEO and Open Graph:
 🚀 Made with ❤️ by **Gandhi Satria Dewa**
 
 ## 🌐 Roadmap.sh
-single-page-cv = https://roadmap.sh/projects/single-page-cv__
+single-page-cv = https://roadmap.sh/projects/single-page-cv <br />
 basic-html-webpage = https://roadmap.sh/projects/basic-html-website
