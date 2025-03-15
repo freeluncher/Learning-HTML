@@ -23,7 +23,26 @@
     </header>
 
     <main>
-        <h2>Get in Touch</h2>
+        <form action="homepage.html" method="post">
+            <h2>Get in Touch</h2>
+            <div class="input-element">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" placeholder="John Doe" />
+            </div>
+            <div class="input-element">
+                <label for="email">Email: </label>
+                <input type="email" name="email" id="email" placeholder="johndoe@example.test" />
+            </div>
+            <div class="input-element">
+                <label for="">Phone: </label>
+                <input type="tel" name="phone" id="phone" placeholder="+6282231637438" />
+            </div>
+            <div class="input-element">
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" placeholder="Your Message is here..."></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
         <p>Email: <a href="mailto:gandhisatriadewa06@gmail.com">gandhisatriadewa06@gmail.com</a></p>
         <p>Socials:</p>
         <ul>
