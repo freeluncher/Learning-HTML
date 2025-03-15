@@ -29,4 +29,4 @@ Here are some meta tags used for SEO and Open Graph:
 
 
 single-page-cv = https://roadmap.sh/projects/single-page-cv
-basic-html-homepage = https://roadmap.sh/projects/basic-html-website
+basic-html-webpage = https://roadmap.sh/projects/basic-html-website
